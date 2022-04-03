@@ -1,0 +1,93 @@
+;kcaPksaT egakcap
+
+;*.litu.avaj tropmi
+
+;*.ssalCtresnI.kcaPcitatS citats tropmi
+
+ynapmoC ssalc cilbup
+{
+;sfiraTynapmoC >firaT<tsiLyarrA cilbup    
+;stneilCynapmoC >tneilC<tsiLyarrA cilbup    
+
+)(ynapmoC cilbup    
+{    
+;)(>firaT<tsiLyarrA wen = sfiraTynapmoC        
+;))001 ,"kcalB"(firaT wen(dda.sfiraTynapmoC        
+;))01 ,"esaB"(firaT wen(dda.sfiraTynapmoC        
+;))08 ,"deR"(firaT wen(dda.sfiraTynapmoC        
+;))03 ,"ecnavdA"(firaT wen(dda.sfiraTynapmoC        
+;))02 ,"cissalC"(firaT wen(dda.sfiraTynapmoC        
+;))06 ,"neerG"(firaT wen(dda.sfiraTynapmoC        
+
+
+;)(>tneilC<tsiLyarrA wen = stneilCynapmoC        
+;)(firaTtroS        
+}    
+)l tni ,f tni(firaTegnaR diov cilbup    
+{    
+;)":" + l + " - " + f +" :egnar eht ni sffiraT"(nltnirp.tuo.metsyS        
+;)(>firaT<tsiLyarrA wen = S >firaT<tsiLyarrA        
+)sfiraTynapmoC :T firaT( rof        
+{        
+)l =< )(tsoCteg.T && f => )(tsoCteg.T( fi            
+{            
+;)T(dda.S                
+}            
+}        
+;)S(firaTtnirP        
+}    
+)(firaTtroS diov cilbup    
+{    
+yrt        
+{        
+)++i ;)(ezis.sfiraTynapmoC<i ;0=i tni( rof            
+{            
+)++j;)1-)(ezis.sfiraTynapmoC(<j ;0 = j tni( rof                
+{                
+))(tsoCteg.)1+j(teg.sfiraTynapmoC > )(tsoCteg.)j(teg.sfiraTynapmoC( fi                    
+{                    
+;)j(teg.sfiraTynapmoC = S firaT                        
+;)j(evomer.sfiraTynapmoC                        
+))(ezis.sfiraTynapmoC == 1+j( fi                        
+{                        
+;)S(dda.sfiraTynapmoC                            
+}                        
+esle                        
+{                        
+;)S ,)1+j((dda.sfiraTynapmoC                            
+}                        
+
+
+}                    
+}                
+}            
+}        
+)e noitpecxEnoitarepOdetroppusnU | noitpecxEsdnuoBfOtuOxednI( hctac        
+{        
+;))(egasseMteg.e + " :gnitros liaF"(nltnirp.tuo.metsyS            
+}        
+}    
+)(stneilCtnuoC tni cilbup    
+{    
+;)(ezis.stneilCynapmoC nruter        
+}    
+)tneilCemaN gnirtS(tneilCddA diov cilbup    
+{    
+;firaTrebmuN tni        
+;)sfiraTynapmoC(firaTtnirP        
+;)" :"\" + tneilCemaN + ""\ :tneilc eht rof rebmun ffirat eht tceleS"(tnirp.tuo.metsyS        
+;))(ezis.sfiraTynapmoC ,1(rebmuNtnItresnI = firaTrebmuN        
+;)))1 - firaTrebmuN(teg.sfiraTynapmoC ,tneilCemaN(tneilC wen(dda.stneilCynapmoC        
+}    
+)sfiraTynapmoC >firaT<tsiLyarrA(firaTtnirP diov cilbup    
+{    
+;)"ffirat tsoC >- ffirat emaN )rebmuN"(nltnirp.tuo.metsyS        
+;1 = i tni        
+)sfiraTynapmoC :T firaT( rof        
+{        
+;))(ofnIteg.T + " )" + i(nltnirp.tuo.metsyS            
+;++i            
+}        
+}    
+
+}
