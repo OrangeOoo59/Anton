@@ -2,10 +2,11 @@ package InsertNumber;
 
 import java.util.Scanner;
 
-public class Integer
+public final class Integer
 {
     private static final int MinValue = -2147483648;
     private static final int MaxValue = 2147483647;
+
     public static int Number(int down, int up)
     {
         Scanner Scan = new Scanner(System.in);
@@ -34,22 +35,30 @@ public class Integer
     }
     public static int Number()
     {
-        return Number(MinValue , MaxValue);
+        return Number(MinValue, MaxValue);
     }
     public static int Max(int max)
     {
-        return Number(MinValue , max);
+        return Number(MinValue, max);
     }
     public static int Min(int min)
     {
-        return Number(min , MaxValue);
+        return Number(min, MaxValue);
     }
     public static int ZeroMax(int max)
     {
-        return Number(0 , max);
+        return Number(0, max);
     }
     public static int MinZero(int min)
     {
-        return Number(min , 0);
+        return Number(min, 0);
+    }
+    public static int ZeroMax()
+    {
+        return Number(0, MaxValue);
+    }
+    public static int MinZero()
+    {
+        return Number(MinValue, 0);
     }
 }
