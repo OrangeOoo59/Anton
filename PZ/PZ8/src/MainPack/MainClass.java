@@ -1,5 +1,11 @@
 package MainPack;
 
+import HTMLParsePack.HTMLParse;
+import VaucehrPack.VaucherClass;
+import XMLParsPack.*;
+
+import java.util.ArrayList;
+
 //Туристические путевки.
 //Туристические путевки, предлагаемые агентством, имеют следующие
 //характеристики:
@@ -17,6 +23,9 @@ public class MainClass
 {
     public static void main(String[] args)
     {
-
+        ArrayList<VaucherClass> Vouchers;
+        XMLPars Pars = new XMLPars("XMLFile.xml");
+        Vouchers = Pars.Parsing();
+        HTMLParse HTML = new HTMLParse(Vouchers);
     }
 }

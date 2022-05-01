@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TouristsVouchers>
+    <TouristVoucher>
+        <Type>Excursion</Type>
+        <Country>Belarusian</Country>
+        <Number>4</Number>
+        <Transport>Motor transport</Transport>
+        <Hotel>
+            <Stars>5</Stars>
+            <Television>Yes</Television>
+            <Nutrition>Nothing</Nutrition>
+            <Conditioner>Yes</Conditioner>
+        </Hotel>
+        <Cost>5000</Cost>
+    </TouristVoucher>
+
+    <TouristVoucher>
+        <Type>Weekend</Type>
+        <Country>Turkmenistan</Country>
+        <Number>2</Number>
+        <Transport>Airline</Transport>
+        <Hotel>
+            <Stars>1</Stars>
+            <Television>No</Television>
+            <Nutrition>Nothing</Nutrition>
+            <Conditioner>No</Conditioner>
+        </Hotel>
+        <Cost>1</Cost>
+    </TouristVoucher>
+
+    <TouristVoucher>
+        <Type>Rest</Type>
+        <Country>Togo</Country>
+        <Number>40</Number>
+        <Transport>On foot</Transport>
+        <Hotel>
+            <Stars>0</Stars>
+            <Television>Yes</Television>
+            <Nutrition>Nothing</Nutrition>
+            <Conditioner>No</Conditioner>
+        </Hotel>
+        <Cost>900000</Cost>
+    </TouristVoucher>
+
+    <TouristVoucher>
+        <Type>Rest</Type>
+        <Country>Syria</Country>
+        <Number>365</Number>
+        <Transport>Liner</Transport>
+        <Hotel>
+            <Stars>5</Stars>
+            <Television>Yes</Television>
+            <Nutrition>Disposable</Nutrition>
+            <Conditioner>Yes</Conditioner>
+        </Hotel>
+        <Cost>9999999999</Cost>
+    </TouristVoucher>
+</TouristsVouchers>
+
+
