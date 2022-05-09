@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mssql-jdbc-10.2.0.jre17">
+    <CLASSES>
+      <root url="jar://C:/OrangeWork/JDCB_for_SQL_Sqrver/sqljdbc_10.2/rus/mssql-jdbc-10.2.0.jre17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
