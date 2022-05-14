@@ -1,5 +1,8 @@
 package TaskPack;
 
+import DBPack.DBClass;
+
+import java.sql.SQLException;
 import java.util.*;
 
 import static StaticPack.InsertClass.*;
@@ -9,16 +12,9 @@ public class Company
     private ArrayList<Tarif> CompanyTarifs;
     private ArrayList<Client> CompanyClients;
 
-    public Company()
-    {
-        CompanyTarifs = new ArrayList<Tarif>();
-        CompanyTarifs.add(new Tarif("Black", 100));
-        CompanyTarifs.add(new Tarif("Base", 10));
-        CompanyTarifs.add(new Tarif("Red", 80));
-        CompanyTarifs.add(new Tarif("Advance", 30));
-        CompanyTarifs.add(new Tarif("Classic", 20));
-        CompanyTarifs.add(new Tarif("Green", 60));
-
+    public Company() throws SQLException {
+        DBClass D = new DBClass("SELECT name_tarif, cost_tarif FROM PZ7Table");
+        CompanyTarifs = D.getListTarif();
 
         CompanyClients = new ArrayList<Client>();
         SortTarif();
